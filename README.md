@@ -9,7 +9,7 @@ A machine learning project that uses **Linear Regression** to predict national h
 ```
 LR_model.ipynb       # Main notebook
 utils.py             # Helper functions (plotting, feature importance)
-world_happiness.csv  # Dataset (place in working directory or update path)
+world_happiness.csv  # Dataset ('data/world_happiness.csv')
 README.md
 ```
 
@@ -47,8 +47,8 @@ pip install pandas numpy matplotlib seaborn scikit-learn ipywidgets
 ### Clone & Run
 
 ```bash
-git clone <your-repo-url>
-cd <repo-folder>
+git clone <https://github.com/AsokTamang/stats>
+cd <folder where you cloned this repo>
 jupyter notebook LR_model.ipynb
 ```
 
